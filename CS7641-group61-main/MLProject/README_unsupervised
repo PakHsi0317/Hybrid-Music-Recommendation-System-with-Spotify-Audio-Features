@@ -1,0 +1,4 @@
+run in anaconda 
+(you can change the parameters of the command)
+for example:
+python unsupervised_recommender_viz.py --data ./data/processed_music_data_no_negatives.csv --model itemcf --itemcf_neighbors 80 --sig_weight --sig_cap 50 --k 20 --leave_k 2 --plot_dir ./plots/run1 --export_recs ./topk_run1.csv
